@@ -15,47 +15,30 @@ function DefaultFooter() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=nukr-default-footer"
+                  href="https://fepsi.netlify.app/index"
                   target="_blank"
                 >
-                  Creative Tim
+                  FEPSI
                 </a>
               </li>
               <li>
                 <a
-                  href="http://presentation.creative-tim.com?ref=nukr-default-footer"
-                  target="_blank"
-                >
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://blog.creative-tim.com?ref=nukr-default-footer"
+                  href="https://blog.naver.com/slayerzeroa"
                   target="_blank"
                 >
                   Blog
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://fepsi.netlify.app/index"
+                  target="_blank"
+                >
+                  Contact Us : slayerzeroa@naver.com
+                </a>
+              </li>
             </ul>
           </nav>
-          <div className="copyright" id="copyright">
-            © {new Date().getFullYear()}, Designed by{" "}
-            <a
-              href="https://www.invisionapp.com?ref=nukr-default-footer"
-              target="_blank"
-            >
-              Invision
-            </a>
-            . Coded by{" "}
-            <a
-              href="https://www.creative-tim.com?ref=nukr-default-footer"
-              target="_blank"
-            >
-              Creative Tim
-            </a>
-            .
-          </div>
         </Container>
       </footer>
     </>

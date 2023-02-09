@@ -16,8 +16,10 @@
     "react-router": "^6.8.1",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "react-tooltip": "^5.7.5",
     "reactstrap": "8.9.0",
-    "sass": "1.54.0"
+    "sass": "1.54.0",
+    "styled-components": "^5.3.6"
   },
   "scripts": {
     "start": "react-scripts start",

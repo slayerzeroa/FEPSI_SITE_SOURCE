@@ -33,7 +33,7 @@ import ProfilePage from "views/examples/ProfilePage.js";
 import About from "pages/About";
 import Projects from "pages/Projects";
 import Members from "pages/Members";
-import Financial_Engineering from "pages/Financial_Engineering";
+import FE from "pages/FE";
 import Contact from "pages/Contact";
 import Activities from "pages/Activities";
 
@@ -44,7 +44,7 @@ root.render(
     <Routes>
         <Route path="/activities" element={ <Activities/> } />
         <Route path="/contact" element={ <Contact/> } />
-        <Route path="/financial_engineering" element={ <Financial_Engineering/> } />
+        <Route path="/fe" element={ <FE/> } />
         <Route path="/members" element={ <Members/> } />
         <Route path="/projects" element={ <Projects/> } />
         <Route path="/index" element={ <Index/> } />

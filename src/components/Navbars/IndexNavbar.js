@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Tooltip } from 'react-tooltip';
 // reactstrap components
 import {
   Button,
@@ -89,28 +90,37 @@ function IndexNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/financial_engineering" tag={Link}>
+                <NavLink to="/fe" tag={Link}>
                   Financial Engineering
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink to="/projects" tag={Link}>
+              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="projects" style={{fontSize:"10%"}}>
+              <Tooltip anchorId="projects" place="top"/>
+                {/* <NavLink to="/projects" tag={Link}> */}
+                <NavLink>
                   Projects
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink to="/activities" tag={Link}>
+              
+              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="activities" style={{fontSize:"10%"}}>
+              <Tooltip anchorId="activities" place="top"/>
+                {/* <NavLink to="/activities" tag={Link}> */}
+                <NavLink>
                   Activities
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink to="/members" tag={Link}>
+              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="members" style={{fontSize:"10%"}}>
+              <Tooltip anchorId="members" place="top"/>
+                {/* <NavLink to="/members" tag={Link}> */}
+                <NavLink>
                   Members
                 </NavLink>
               </NavItem>
 
-              <NavItem>
-                <NavLink to="/contact" tag={Link}>
+              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="contact" style={{fontSize:"10%"}}>
+              <Tooltip anchorId="contact" place="top"/>
+                {/* <NavLink to="/contact" tag={Link}> */}
+                <NavLink>
                   Contact & Support
                 </NavLink>
               </NavItem>
