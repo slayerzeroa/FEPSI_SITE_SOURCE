@@ -2,8 +2,12 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
-
+import { Dimensions } from 'react-native';
+import { colors, width, height } from 'assets/config/globalStyles';
 // core components
+import Tunnel from "assets/videos/Tunnel.mp4";
+
+
 
 function LandingPageHeader() {
   let pageHeader = React.createRef();
@@ -23,44 +27,25 @@ function LandingPageHeader() {
   });
   return (
     <>
-      <div className="page-header page-header-small">
-        <div
+      <div className="page-header page-header-small content-center" style={{objectFit: "cover"}}>
+        <video src={Tunnel} autoPlay loop muted width={'200%'}/>
+        
+        {/* <div
+          className="page-header-video"
+          
+
           className="page-header-image"
           style={{
             backgroundImage: "url(" + require("assets/img/bg6.jpg") + ")"
           }}
           ref={pageHeader}
-        ></div>
+        ></div> */}
         <div className="content-center">
-          <Container>
-            <h1 className="title">This is our great company.</h1>
-            <div className="text-center">
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-facebook-square"></i>
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-twitter"></i>
-              </Button>
-              <Button
-                className="btn-icon btn-round"
-                color="info"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-google-plus"></i>
-              </Button>
-            </div>
-          </Container>
+            <div className="title" style={{fontSize: width*80}}>We find α Opportunities,<br></br>
+             We're pricing Everything<br></br><br></br>
+             Everything is Information,<br></br>
+             Information makes Worth</div>
+          
         </div>
       </div>
     </>

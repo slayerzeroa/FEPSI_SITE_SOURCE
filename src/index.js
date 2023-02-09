@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 // styles for this kit
 import "assets/css/bootstrap.min.css";
@@ -30,33 +30,30 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LoginPage from "views/examples/LoginPage.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import About from "pages/About";
+import Projects from "pages/Projects";
+import Members from "pages/Members";
+import Financial_Engineering from "pages/Financial_Engineering";
+import Contact from "pages/Contact";
+import Activities from "pages/Activities";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
-    <Switch>
-      <Switch>
-        <Route path="/index" render={(props) => <Index {...props} />} />
-        <Route
-          path="/nucleo-icons"
-          render={(props) => <NucleoIcons {...props} />}
-        />
-        <Route
-          path="/landing-page"
-          render={(props) => <LandingPage {...props} />}
-        />
-        <Route
-          path="/profile-page"
-          render={(props) => <ProfilePage {...props} />}
-        />
-        <Route
-          path="/login-page"
-          render={(props) => <LoginPage {...props} />}
-        />
-        <Redirect to="/index" />
-        <Redirect from="/" to="/index" />
-      </Switch>
-    </Switch>
+    <Routes>
+        <Route path="/activities" element={ <Activities/> } />
+        <Route path="/contact" element={ <Contact/> } />
+        <Route path="/financial_engineering" element={ <Financial_Engineering/> } />
+        <Route path="/members" element={ <Members/> } />
+        <Route path="/projects" element={ <Projects/> } />
+        <Route path="/index" element={ <Index/> } />
+        <Route path="/about" element={ <About/> } />
+        <Route path="/nucleo-icons" element={ <NucleoIcons/>}/>
+        <Route path="/landing-page" element={ <LandingPage/>}/>
+        <Route path="/profile-page" element={ <ProfilePage/>}/>
+        <Route path="/login-page" element={ <LoginPage/>}/>
+        <Route path="/" element={<Navigate to="/index"/>} />
+    </Routes>
   </BrowserRouter>
 );

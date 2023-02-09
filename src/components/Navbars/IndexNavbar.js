@@ -82,6 +82,39 @@ function IndexNavbar() {
             isOpen={collapseOpen}
             navbar
           >
+                        <Nav navbar>
+              <NavItem>
+                <NavLink to="/about" tag={Link}>
+                  About FEPSI
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/financial_engineering" tag={Link}>
+                  Financial Engineering
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/projects" tag={Link}>
+                  Projects
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/activities" tag={Link}>
+                  Activities
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/members" tag={Link}>
+                  Members
+                </NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink to="/contact" tag={Link}>
+                  Contact & Support
+                </NavLink>
+              </NavItem>
+            </Nav>
           </Collapse>
         </Container>
       </Navbar>
