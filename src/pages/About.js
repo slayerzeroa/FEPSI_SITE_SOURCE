@@ -135,30 +135,6 @@ function About() {
                     <p className="description">
                       안녕하세요:) 저는 FEPSI 부회장을 맡고 있는 김강민입니다. 여러분과 잊지 못할 추억을 만들고 싶습니다. 잘 부탁드립니다 😆{" "}
                     </p>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-instagram"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-facebook-square"></i>
-                    </Button>
                   </div>
                 </Col>
                 <Col md="4">
@@ -179,22 +155,22 @@ function About() {
                     <a href="https://github.com/slayerzeroa">
                       <Button
                         className="btn-icon btn-round"
-                        color="info"
+                        color=""
                       >
-                        <i className="fab fa-github"></i>
+                        <img src={require("../assets/img/github.png")} width="100%" height="100%" />
                       </Button>
                     </a>
                     <a href="https://www.linkedin.com/in/%EB%8C%80%EB%AA%85-%EC%9C%A0-625084183/">
                       <Button
                         className="btn-icon btn-round"
-                        color="info"
+                        color=""
                       >
-                        <i className="fab fa-linkedin"></i>
+                        <img src={require("../assets/img/linkedin.png")} width="100%" height="100%" />
                       </Button>
                     </a>
                     <a href="https://blog.naver.com/slayerzeroa">
                       <Button
-                        className="btn-icon"
+                        className="btn-icon btn-round"
                         color=""
                       >
                         <img src={require("../assets/img/naver.png")} width="100%" height="100%" />
@@ -202,7 +178,7 @@ function About() {
                     </a>
                     <a href="https://stockduck.tistory.com/">
                       <Button
-                        className="btn-icon"
+                        className="btn-icon btn-round"
                         color=""
                       >
                           <img src={Tistory} width='100%'/>
@@ -224,30 +200,6 @@ function About() {
                       금융공학도 이건창입니다.<br></br>
                       반갑습니다.<br></br>
                     </p>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-google-plus"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-youtube"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
                   </div>
                 </Col>
               </Row>

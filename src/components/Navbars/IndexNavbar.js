@@ -54,13 +54,13 @@ function IndexNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand
-              href="https://fepsi.netlify.app/index"
-              target="_blank"
+            <NavLink
+              to="/index"
+              tag={Link}
               id="navbar-brand"
             >
               <h2>FEPSI</h2>
-            </NavbarBrand>
+            </NavLink>
             <UncontrolledTooltip target="#navbar-brand">
               Not a coke. It's FEPSI.
             </UncontrolledTooltip>
@@ -83,7 +83,7 @@ function IndexNavbar() {
             isOpen={collapseOpen}
             navbar
           >
-                        <Nav navbar>
+            <Nav navbar>
               <NavItem>
                 <NavLink to="/about" tag={Link}>
                   About FEPSI
