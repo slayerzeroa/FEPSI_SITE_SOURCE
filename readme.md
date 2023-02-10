@@ -4,7 +4,7 @@ It written by React.JS
 project url : https://fepsi.netlify.app/index
 
 Project Structure
-<code>
+```
 ├─src────────────────────────build -- Github(FEPSI_SITE) -- Netlify Deploy
 │  ├─assets
 │  │  ├─config
@@ -27,4 +27,4 @@ Project Structure
 │     ├─Index.js
 │     └─NucleoIcons.js
 └─index.js
-</code>
+```
