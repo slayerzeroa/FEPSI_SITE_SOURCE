@@ -58,8 +58,9 @@ function IndexNavbar() {
               to="/index"
               tag={Link}
               id="navbar-brand"
+              style={{fontSize:"250%"}}
             >
-              <h2>FEPSI</h2>
+              FEPSI
             </NavLink>
             <UncontrolledTooltip target="#navbar-brand">
               Not a coke. It's FEPSI.
@@ -94,31 +95,29 @@ function IndexNavbar() {
                   Financial Engineering
                 </NavLink>
               </NavItem>
-              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="projects" style={{fontSize:"10%"}}>
-              <Tooltip anchorId="projects" place="top"/>
-                {/* <NavLink to="/projects" tag={Link}> */}
-                <NavLink>
+              <NavItem>
+                <NavLink to="/projects" tag={Link}>
                   Projects
                 </NavLink>
               </NavItem>
               
-              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="activities" style={{fontSize:"10%"}}>
-              <Tooltip anchorId="activities" place="top"/>
+              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="activities">
+              <Tooltip anchorId="activities" place="top" style={{fontSize:"50%"}}/>
                 {/* <NavLink to="/activities" tag={Link}> */}
                 <NavLink>
                   Activities
                 </NavLink>
               </NavItem>
-              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="members" style={{fontSize:"10%"}}>
-              <Tooltip anchorId="members" place="top"/>
+              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="members">
+              <Tooltip anchorId="members" place="top" style={{fontSize:"50%"}}/>
                 {/* <NavLink to="/members" tag={Link}> */}
                 <NavLink>
                   Members
                 </NavLink>
               </NavItem>
 
-              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="contact" style={{fontSize:"10%"}}>
-              <Tooltip anchorId="contact" place="top"/>
+              <NavItem data-tooltip-content="개발중입니다.. 뚠뚠.." id="contact">
+              <Tooltip anchorId="contact" place="top" style={{fontSize:"50%"}} />
                 {/* <NavLink to="/contact" tag={Link}> */}
                 <NavLink>
                   Contact & Support

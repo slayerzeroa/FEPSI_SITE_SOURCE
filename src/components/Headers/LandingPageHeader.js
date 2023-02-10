@@ -4,6 +4,7 @@ import React from "react";
 import { Button, Container } from "reactstrap";
 import { Dimensions } from 'react-native';
 import { colors, font_width, font_height } from 'assets/config/globalStyles';
+
 // core components
 import Tunnel from "assets/videos/Tunnel.mp4";
 
@@ -28,8 +29,7 @@ function LandingPageHeader() {
   return (
     <>
       <div className="page-header page-header-small content-center" style={{objectFit: "cover"}}>
-        <video src={Tunnel} autoPlay loop muted width={"100%"} alignself='center'/>
-        
+        <video src={Tunnel} autoPlay playsInline loop muted width={"100%"} alignself='center'/>
         {/* <div
           className="page-header-video"
           
