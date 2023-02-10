@@ -78,12 +78,10 @@ function Recruit() {
               ※결과 발표 일정은 조정될 수 있습니다<br></br>
               <br></br>
           </Button>
-        </div>
-        <Row>
           <Button color="primary" type="button" href="https://forms.gle/FeWkPcfAiYaTJEb39" block>
             Applying for Recruitment
           </Button>
-        </Row>
+        </div>
       </div>
     </>
   );
