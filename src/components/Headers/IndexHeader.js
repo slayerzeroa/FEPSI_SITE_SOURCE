@@ -6,7 +6,6 @@ import { Container } from "reactstrap";
 
 // core components
 import {StyleSheet, View, TouchableOpacity, Text} from 'react-native';
-
 import {colors, width, height} from '../../assets/config/globalStyles'; //width,height 받아오기
 
 function IndexHeader() {
@@ -38,7 +37,7 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand" style={styles.header}>
-            <p><br></br><br></br>Programming the World,<br></br>Programming with FEPSI</p>
+            <p className="title"><br></br><br></br>Programming the World,<br></br>Programming with FEPSI</p>
           </div>
           <h6 className="category category-absolute">
             Designed by{" YDM"}
@@ -56,6 +55,6 @@ export default IndexHeader;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: width * 36
+    fontSize: width * 10
   },
 });

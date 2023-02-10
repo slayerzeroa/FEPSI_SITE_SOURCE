@@ -3,14 +3,15 @@ import React from "react";
 // reactstrap components
 import { Button, Container } from "reactstrap";
 import { Dimensions } from 'react-native';
-import { colors, font_width, font_height } from 'assets/config/globalStyles';
 
 // core components
 import Tunnel from "assets/videos/Tunnel.mp4";
 
+import {StyleSheet, View, TouchableOpacity, Text} from 'react-native';
+import {colors, width, height} from '../../assets/config/globalStyles'; //width,height 받아오기
 
 
-function LandingPageHeader() {
+function AboutHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -40,18 +41,24 @@ function LandingPageHeader() {
           }}
           ref={pageHeader}
         ></div> */}
-        <div className="content-center">
-            <h1 className="title" style={{fontSize: 15}}>
+        <div className="content-center" style={styles.header}>
+            <p className="title" >
              <br></br><br></br><br></br>
               We find α Opportunities,<br></br>
               We're pricing Everything<br></br><br></br>
               Everything is Information,<br></br>
               Information makes Worth
-            </h1>
+            </p>
         </div>
       </div>
     </>
   );
 }
 
-export default LandingPageHeader;
+export default AboutHeader;
+
+const styles = StyleSheet.create({
+  header: {
+    fontSize: width * 10
+  },
+});

@@ -6,7 +6,7 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import Projects_Header from "views/projects-sections/Projects_Header";
+import Projects_Header from "components/Headers/Projects_Header.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page

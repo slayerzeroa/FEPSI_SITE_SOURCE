@@ -16,7 +16,7 @@ import {
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
+import AboutHeader from "components/Headers/AboutHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 import { ReactComponent as TistoryIcon } from "../assets/img/tistory.svg";
 
@@ -38,7 +38,7 @@ function About() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <LandingPageHeader />
+        <AboutHeader />
         <div className="section section-about-us">
           <Container>
             <Row>

@@ -4,8 +4,10 @@ import React from "react";
 // reactstrap components
 import { Container } from "reactstrap";
 // core components
+import {StyleSheet, View, TouchableOpacity, Text} from 'react-native';
+import {colors, width, height} from '../../assets/config/globalStyles'; //width,height 받아오기
 
-function FE_Header() {
+function Projects_Header() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -32,8 +34,8 @@ function FE_Header() {
           ref={pageHeader}
         ></div>
         <Container>
-          <div className="content-center brand">
-            <h3>Projects make Growth<br></br>No individual is bigger than the team</h3>
+          <div className="content-center brand" style={styles.header}>
+            <p className="title" >Projects make Growth<br></br>No individual is bigger than the team</p>
           </div>
           <h6 className="category category-absolute">
             Designed by{" YDM"}
@@ -46,4 +48,10 @@ function FE_Header() {
   );
 }
 
-export default FE_Header;
+export default Projects_Header;
+
+const styles = StyleSheet.create({
+  header: {
+    fontSize: width * 10
+  },
+});

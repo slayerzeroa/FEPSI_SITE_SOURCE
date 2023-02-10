@@ -6,7 +6,7 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import FE_Header from "views/fe-sections/FE_Header";
+import FE_Header from "components/Headers/FE_Header.js";
 import DarkFooter from "components/Footers/DarkFooter.js";
 
 // sections for this page
