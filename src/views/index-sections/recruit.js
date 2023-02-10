@@ -80,7 +80,7 @@ function Recruit() {
           </Button>
         </div>
         <Row>
-          <Button color="primary" type="button" href="https://forms.gle/FeWkPcfAiYaTJEb39" size="lg" block>
+          <Button color="primary" type="button" href="https://forms.gle/FeWkPcfAiYaTJEb39" block>
             Applying for Recruitment
           </Button>
         </Row>
