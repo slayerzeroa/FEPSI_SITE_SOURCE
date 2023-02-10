@@ -55,6 +55,6 @@ export default IndexHeader;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: width * 10
+    fontSize: width * 30
   },
 });

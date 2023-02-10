@@ -23,8 +23,8 @@ export const fonts = {
 };
 
 export const basicDimensions = { // 디자이너가 작업하고 있는 XD파일 스크린의 세로,가로
-  height: 1130,
-  width: 714,
+  height: 1080,
+  width: 1000,
 };
 
 export const height = ( // 높이 변환 작업
