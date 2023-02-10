@@ -3,7 +3,11 @@ import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
+
 // core components
+import {StyleSheet, View, TouchableOpacity, Text} from 'react-native';
+
+import {colors, width, height} from '../../assets/config/globalStyles'; //width,height 받아오기
 
 function IndexHeader() {
   let pageHeader = React.createRef();
@@ -33,8 +37,8 @@ function IndexHeader() {
           ref={pageHeader}
         ></div>
         <Container>
-          <div className="content-center brand">
-            <h3><br></br><br></br>Programming the World,<br></br>Programming with FEPSI</h3>
+          <div className="content-center brand" style={styles.header}>
+            <p><br></br><br></br>Programming the World,<br></br>Programming with FEPSI</p>
           </div>
           <h6 className="category category-absolute">
             Designed by{" YDM"}
@@ -48,3 +52,10 @@ function IndexHeader() {
 }
 
 export default IndexHeader;
+
+
+const styles = StyleSheet.create({
+  header: {
+    fontSize: width * 36
+  },
+});

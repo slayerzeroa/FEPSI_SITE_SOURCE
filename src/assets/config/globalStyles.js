@@ -27,12 +27,12 @@ export const basicDimensions = { // 디자이너가 작업하고 있는 XD파일
   width: 714,
 };
 
-export const font_height = ( // 높이 변환 작업
+export const height = ( // 높이 변환 작업
   Dimensions.get('window').height *
   (1 / basicDimensions.height)
 ).toFixed(2);
 
-export const font_width = ( // 가로 변환 작업
+export const width = ( // 가로 변환 작업
   Dimensions.get('window').width *
   (1 / basicDimensions.width)
 ).toFixed(2);
