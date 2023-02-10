@@ -1,5 +1,9 @@
-This is the source of fepsi site
+This is the source of FEPSI site
+FEPSI(Financial Engineering Programming Study Institution)
 It written by React.JS
+
+slayerzeroa develop this project
+
 
 <h1>Project Link</h1>
 https://fepsi.netlify.app/index
