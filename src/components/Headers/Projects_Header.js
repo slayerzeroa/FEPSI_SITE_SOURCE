@@ -52,6 +52,6 @@ export default Projects_Header;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: width * 23
+    fontSize: width * 60 * 2.8
   },
 });

@@ -37,7 +37,7 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand" style={styles.header}>
-            <p className="title"><br></br><br></br>Programming the World,<br></br>Programming with FEPSI</p>
+            <p className="title">Programming the World,<br></br>Programming with FEPSI</p>
           </div>
           <h6 className="category category-absolute">
             Designed by{" YDM"}
@@ -55,6 +55,6 @@ export default IndexHeader;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: width * 30
+    fontSize: width * 60 * 4
   },
 });

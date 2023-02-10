@@ -43,7 +43,6 @@ function AboutHeader() {
         ></div> */}
         <div className="content-center" style={styles.header}>
             <p className="title" >
-             <br></br><br></br><br></br>
               We find α Opportunities,<br></br>
               We're pricing Everything<br></br><br></br>
               Everything is Information,<br></br>
@@ -59,6 +58,6 @@ export default AboutHeader;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: width * 20
+    fontSize: width * 60 * 3
   },
 });

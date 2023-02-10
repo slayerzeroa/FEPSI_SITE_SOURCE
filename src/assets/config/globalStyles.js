@@ -1,5 +1,6 @@
 import {Dimensions} from 'react-native';
 console.log(Dimensions.get('window').height);
+console.log(Dimensions.get('window').width);
 export const colors = {
   primary: '#EC8B57',
   black: '#191919',
@@ -23,8 +24,8 @@ export const fonts = {
 };
 
 export const basicDimensions = { // 디자이너가 작업하고 있는 XD파일 스크린의 세로,가로
-  height: 1080,
-  width: 1000,
+  height: 714,
+  width: 1519,
 };
 
 export const height = ( // 높이 변환 작업

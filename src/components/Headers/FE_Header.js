@@ -52,6 +52,6 @@ export default FE_Header;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: width * 30
+    fontSize: width * 60 * 4
   },
 });
