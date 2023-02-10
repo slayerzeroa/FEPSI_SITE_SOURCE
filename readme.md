@@ -4,8 +4,7 @@ FEPSI(Financial Engineering Programming Study Institution)
 
 It written by React.JS
 
-
-slayerzeroa develop this project
+slayerzeroa developed this project
 
 
 <h1>Project Link</h1>
