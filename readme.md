@@ -5,7 +5,7 @@ project url : https://fepsi.netlify.app/index
 
 Project Structure
 
-├─src────────────────build──Github(FEPSI_SITE)──Netlify
+├─src────────────────────────build -- Github(FEPSI_SITE) -- Netlify Deploy
 │  ├─assets
 │  │  ├─config
 │  │  ├─css
