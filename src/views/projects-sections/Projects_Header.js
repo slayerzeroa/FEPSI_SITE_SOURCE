@@ -28,7 +28,7 @@ function FE_Header() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/projects_background.png") + ")", width:"100%", alignself:'center'}}
+            backgroundImage: "url(" + require("assets/img/projects_background.jpg") + ")", width:"100%", alignself:'center'}}
           ref={pageHeader}
         ></div>
         <Container>
