@@ -4,7 +4,10 @@ import Switch from "react-bootstrap-switch";
 // plugin that creates slider
 import Slider from "nouislider";
 import project1 from "../../assets/img/project1.jpg";
-import project2 from "../../assets/img/project2.jpg";
+import project2_0 from "../../assets/img/project2_0.jpg";
+import project2_1 from "../../assets/img/project2_1.jpg";
+import project2_2 from "../../assets/img/project2_2.jpg";
+import {colors, width, height} from '../../assets/config/globalStyles'; //width,height 받아오기
 
 // reactstrap components
 import {
@@ -96,10 +99,10 @@ function BasicElements() {
             </Col>
           </Row>
           <p className="category">2023 Projects</p>
-          <img src={project2} style={{maxWidth: "100%", marginLeft:""}}>
-          </img>
+          <img src={project2_0} style={{Width:width, display: 'block', marginBottom: 10}}></img>
+          <img src={project2_1} style={{Width:width, display: 'block', marginBottom: 10}}></img>
+          <img src={project2_2} style={{Width:width, display: 'block', marginBottom: 10}}></img>
         </Container>
-
       </div>
     </>
   );

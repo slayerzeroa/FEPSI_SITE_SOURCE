@@ -3,8 +3,7 @@ import React from "react";
 import Switch from "react-bootstrap-switch";
 // plugin that creates slider
 import Slider from "nouislider";
-import project1 from "../../assets/img/project1.jpg";
-import project2 from "../../assets/img/project2.jpg";
+
 
 // reactstrap components
 import {

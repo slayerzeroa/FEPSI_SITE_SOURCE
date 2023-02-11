@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.8b8238c0.css",
-    "main.js": "/static/js/main.ac2ced8f.js",
+    "main.js": "/static/js/main.a912982a.js",
     "static/media/Tunnel.mp4": "/static/media/Tunnel.81bf6a0b9364edecb5b2.mp4",
-    "static/media/header_0.png": "/static/media/header_0.aba2a9dcc0a03c3cf01d.png",
+    "static/media/header_0.png": "/static/media/header_0.8b3de81425da9ba0bf1b.png",
     "static/media/FE_background.png": "/static/media/FE_background.4dc7af911efbc4a74c04.png",
     "static/media/skyscrapers.jpg": "/static/media/skyscrapers.b3ffecc745736b504bdd.jpg",
     "static/media/projects_background.jpg": "/static/media/projects_background.6783a475dc78a4c3c730.jpg",
@@ -11,7 +11,6 @@
     "static/media/bg6.jpg": "/static/media/bg6.dc603b7416966b84ac68.jpg",
     "static/media/bg1.jpg": "/static/media/bg1.71a28027225b8ae945bb.jpg",
     "static/media/linka.png": "/static/media/linka.c21a3597d8e4587b0d71.png",
-    "static/media/project2.jpg": "/static/media/project2.41cd20f924128845952f.jpg",
     "static/media/bg11.jpg": "/static/media/bg11.c6c21bd88aee67067eb6.jpg",
     "static/media/bg4.jpg": "/static/media/bg4.01ad1068585185f35555.jpg",
     "static/media/with_us.jpg": "/static/media/with_us.a4d2c59ab78bde0fbdfd.jpg",
@@ -22,8 +21,11 @@
     "static/media/bg5.jpg": "/static/media/bg5.d60a95eb31d6400f802f.jpg",
     "static/media/bg8.jpg": "/static/media/bg8.2c89438b189a2a391f19.jpg",
     "static/media/landing.jpg": "/static/media/landing.6fa0380a8b02ebaadb6a.jpg",
+    "static/media/project2_1.jpg": "/static/media/project2_1.ceabe5348099124cd533.jpg",
     "static/media/project1.jpg": "/static/media/project1.b7714ae36403bddc44ab.jpg",
+    "static/media/project2_2.jpg": "/static/media/project2_2.4e1ba0e1141429e9708a.jpg",
     "static/media/profile.jpg": "/static/media/profile.5f3b8e69153598f8dd2a.jpg",
+    "static/media/project2_0.jpg": "/static/media/project2_0.746a8e450f76d666c728.jpg",
     "static/media/eva.jpg": "/static/media/eva.258d5c64c8708a5ce23b.jpg",
     "static/media/FIN_BERT.png": "/static/media/FIN_BERT.dcca410953d659f4c67b.png",
     "static/media/Auto_Trading.png": "/static/media/Auto_Trading.58672b10e4e75229a9f0.png",
@@ -50,6 +52,6 @@
   },
   "entrypoints": [
     "static/css/main.8b8238c0.css",
-    "static/js/main.ac2ced8f.js"
+    "static/js/main.a912982a.js"
   ]
 }
