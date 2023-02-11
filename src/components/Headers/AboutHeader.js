@@ -58,6 +58,6 @@ export default AboutHeader;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: width * 60 * 3
+    fontSize: width * 8
   },
 });

@@ -29,8 +29,7 @@ function Projects_Header() {
       <div className="page-header clear-filter" filter-color="">
         <div
           className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/projects_background.jpg") + ")", width:"100%", alignself:'center'}}
+          style={styles.background}
           ref={pageHeader}
         ></div>
         <Container>
@@ -52,6 +51,12 @@ export default Projects_Header;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: width * 60 * 2.8
+    fontSize: width * 12
   },
+  background: {
+    backgroundImage: "url(" + require("assets/img/projects_background.jpg") + ")",
+    width:"100%",
+    alignself:'center',
+    opacity: 1,
+  }
 });
