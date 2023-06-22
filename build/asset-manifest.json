@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8b8238c0.css",
-    "main.js": "/static/js/main.a912982a.js",
+    "main.js": "/static/js/main.59d8040c.js",
     "static/media/Tunnel.mp4": "/static/media/Tunnel.81bf6a0b9364edecb5b2.mp4",
     "static/media/header_0.png": "/static/media/header_0.8b3de81425da9ba0bf1b.png",
     "static/media/FE_background.png": "/static/media/FE_background.4dc7af911efbc4a74c04.png",
@@ -52,6 +52,6 @@
   },
   "entrypoints": [
     "static/css/main.8b8238c0.css",
-    "static/js/main.a912982a.js"
+    "static/js/main.59d8040c.js"
   ]
 }
